@@ -4,3 +4,5 @@ var ildar =new Username("Ильдар");
 var hui =new Username("Вадим");
 
 ildar.hello(hui);
+
+#Проверка
