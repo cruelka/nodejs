@@ -1,8 +1,10 @@
+var translation = require('./tr.json');
+
 function Username (name) {
 	this.name=name;
 }
 Username.prototype.hello = function(who) {
-	console.log("hello " + who.name);
+	console.log(translation.Hello + who.name);
 };
 
 
