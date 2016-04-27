@@ -5,4 +5,4 @@ var hui =new Username("Вадим");
 
 ildar.hello(hui);
 
-#Проверка
+//#Проверка
