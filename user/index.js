@@ -10,4 +10,4 @@ Username.prototype.hello = function(who) {
 
 console.log("User is required");
 
-exports.Username = Username;
+module.exports = Username;
