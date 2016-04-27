@@ -1,4 +1,4 @@
-var hui = require('./user');
+var Username = require('./user');
 
 var ildar =new Username("Ильдар");
 var hui =new Username("Вадим");
