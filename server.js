@@ -1,6 +1,6 @@
-var Username = require('./user');
+var hui = require('./user');
 
-var ildar =new Username.Username("Ильдар");
-var hui =new Username.Username("Вадим");
+var ildar =new hui.Username("Ильдар");
+var hui =new hui.Username("Вадим");
 
 ildar.hello(hui);
