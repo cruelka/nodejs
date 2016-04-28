@@ -4,7 +4,7 @@ function Username (name) {
 	this.name=name;
 }
 Username.prototype.hello = function(who) {
-	console.log(db.getPhrase("Hello") + ", " + who.name);
+	console.log(db.getPhrases("Hello") + ", " + who.name);
 };
 
 module.exports = Username;
