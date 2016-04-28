@@ -1,5 +1,7 @@
+var log = require('./logger')(module);
 var db = require('db');
 db.connect();
+
 var Username = require('./user');
 
 function run(){
