@@ -9,7 +9,7 @@ var ildar =new Username("Ильдар");
 var hui =new Username("Вадим");
 
 ildar.hello(hui);
-console.log(db.getPhrases("Runned"));
+log(db.getPhrases("Runned"));
 }
 
 if (module.parent) {
