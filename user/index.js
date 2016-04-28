@@ -1,4 +1,4 @@
-var translation = require('./tr.json');
+var db = require('db');
 
 function Username (name) {
 	this.name=name;
