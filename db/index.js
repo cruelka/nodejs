@@ -4,7 +4,7 @@ exports.connect = function() {
 };
 
 exports.getPhrases = function(name){
-	if (!phrases(name)){
+	if (!phrases[name]){
 		throw new Error("Нет такой фразы " + name);
 	}
 	return phrases(name);
