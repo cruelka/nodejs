@@ -1,4 +1,4 @@
-var log = require('./logger')(module);
+var log = require('logger')(module);
 var db = require('db');
 
 function Username (name) {
