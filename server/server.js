@@ -2,7 +2,7 @@ var http = require('http');
 
 var server = new http.Server();
 
-server.listen("1337, 127.0.0.1");
+server.listen("1337, 31.31.192.87");
 
 server.on('request', function(req, res) {
 	res.writeHead(200, {'Content-Type':'text/plain'});
